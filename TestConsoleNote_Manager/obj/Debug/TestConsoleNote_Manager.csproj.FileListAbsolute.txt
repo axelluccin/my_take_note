@@ -1,0 +1,6 @@
+d:\documents\aluccin\documents\visual studio 2015\Projects\TestWCFService\TestConsoleNote_Manager\bin\Debug\TestConsoleNote_Manager.exe.config
+d:\documents\aluccin\documents\visual studio 2015\Projects\TestWCFService\TestConsoleNote_Manager\bin\Debug\TestConsoleNote_Manager.exe
+d:\documents\aluccin\documents\visual studio 2015\Projects\TestWCFService\TestConsoleNote_Manager\bin\Debug\TestConsoleNote_Manager.pdb
+d:\documents\aluccin\documents\visual studio 2015\Projects\TestWCFService\TestConsoleNote_Manager\obj\Debug\TestConsoleNote_Manager.csprojResolveAssemblyReference.cache
+d:\documents\aluccin\documents\visual studio 2015\Projects\TestWCFService\TestConsoleNote_Manager\obj\Debug\TestConsoleNote_Manager.exe
+d:\documents\aluccin\documents\visual studio 2015\Projects\TestWCFService\TestConsoleNote_Manager\obj\Debug\TestConsoleNote_Manager.pdb

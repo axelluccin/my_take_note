@@ -1,0 +1,11 @@
+d:\documents\aluccin\documents\visual studio 2015\Projects\TestWCFService\TestWCFService\bin\TestWCFService.dll
+d:\documents\aluccin\documents\visual studio 2015\Projects\TestWCFService\TestWCFService\bin\TestWCFService.pdb
+d:\documents\aluccin\documents\visual studio 2015\Projects\TestWCFService\TestWCFService\bin\EntityFramework.dll
+d:\documents\aluccin\documents\visual studio 2015\Projects\TestWCFService\TestWCFService\bin\EntityFramework.SqlServer.dll
+d:\documents\aluccin\documents\visual studio 2015\Projects\TestWCFService\TestWCFService\bin\EntityFramework.xml
+d:\documents\aluccin\documents\visual studio 2015\Projects\TestWCFService\TestWCFService\bin\EntityFramework.SqlServer.xml
+d:\documents\aluccin\documents\visual studio 2015\Projects\TestWCFService\TestWCFService\obj\Debug\TestWCFService.csprojResolveAssemblyReference.cache
+d:\documents\aluccin\documents\visual studio 2015\Projects\TestWCFService\TestWCFService\obj\Debug\TestWCFService.dll
+d:\documents\aluccin\documents\visual studio 2015\Projects\TestWCFService\TestWCFService\obj\Debug\TestWCFService.pdb
+D:\Documents\aluccin\Documents\Visual Studio 2015\Projects\TestWCFService\TestWCFService\bin\fr\EntityFramework.resources.dll
+D:\Documents\aluccin\Documents\Visual Studio 2015\Projects\TestWCFService\TestWCFService\bin\fr\EntityFramework.SqlServer.resources.dll

@@ -1,0 +1,32 @@
+﻿<Window x:Class="WpfApplication1.Prise_Note"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication1"
+        mc:Ignorable="d"
+        Title="Prise de Note" Height="350" Width="550">
+    <Grid>
+        <Button x:Name="Creation" Content="Créer une Note" HorizontalAlignment="Left" Margin="58,67,0,0" VerticalAlignment="Top" Width="125" FontSize="13.333"/>
+        <TextBlock x:Name="Recherche" HorizontalAlignment="Left" Height="23" Margin="253,66,0,0" TextWrapping="Wrap" Text="Recherche" TextAlignment="Center" VerticalAlignment="Top" Width="105" FontSize="13.333"/>
+        <TextBox x:Name="Search" HorizontalAlignment="Left" Height="23" Margin="363,66,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+
+
+        <ListView x:Name="list_View_Note" HorizontalAlignment="Left" Height="100" Margin="58,142,0,0" VerticalAlignment="Top" Width="425">
+            <ListView.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Header="Modifier" Click="Modification_Note"/>
+                    <MenuItem Header="Supprimer" Click="Suppresion_Note"/>
+                </ContextMenu>
+            </ListView.ContextMenu>
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Titre" DisplayMemberBinding="{Binding Titre}" Width="100"/>
+                    <GridViewColumn Header="Modification" DisplayMemberBinding="{Binding Modification}" Width="75"/>
+                    <GridViewColumn Header="Contenu" DisplayMemberBinding="{Binding Texte}" Width="250"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Button x:Name="Deco" Content="Se Déconnecter" HorizontalAlignment="Left" Margin="363,276,0,0" VerticalAlignment="Top" Width="125"/>
+    </Grid>
+</Window>

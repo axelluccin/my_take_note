@@ -1,0 +1,15 @@
+﻿<Window x:Class="WpfApplication1.CreaModif_Note"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication1"
+        mc:Ignorable="d"
+        Title="CreaModif_Note" Height="300" Width="300">
+    <Grid >
+        <TextBox x:Name="titre" HorizontalAlignment="Left" Height="23" Margin="29,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="texte" HorizontalAlignment="Left" Height="97" Margin="29,102,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="229"/>
+        <Button x:Name="button_cremodif" Content="{Binding my_button}" HorizontalAlignment="Left" Margin="183,238,0,0" VerticalAlignment="Top" Width="75"/>
+
+    </Grid>
+</Window>
