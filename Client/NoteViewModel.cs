@@ -29,7 +29,7 @@ namespace Client
             Service1Client app = new Service1Client();
             if (Pseudo != "")
             {
-                //suremment rajouter une sécurité pour pouvoir se connecter au client lourd !
+                //suremment rajouter une sécurité (chiffre le password) pour pouvoir se connecter au client lourd !
                 UserIdentification = app.Connection(Pseudo, pass.Password);
                 if (UserIdentification != 0)
                 {
