@@ -29,11 +29,12 @@ namespace Client
             Service1Client app = new Service1Client();
             if (Pseudo != "")
             {
+                //suremment rajouter une sécurité pour pouvoir se connecter au client lourd !
                 UserIdentification = app.Connection(Pseudo, pass.Password);
                 if (UserIdentification != 0)
                 {
                     Prise_De_Note psn = new Prise_De_Note();
-                    psn.DataContext = new PriseNoteViewModel(UserIdentification,psn);
+                    psn.DataContext = new PriseNoteViewModel(UserIdentification, psn);
                     psn.Show();
                     Application.Current.MainWindow.Close();
                 }
